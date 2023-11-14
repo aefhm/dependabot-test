@@ -9,3 +9,5 @@ updates:
     directory: "/" # Location of package manifests
     schedule:
       interval: "daily"
+      # Check for npm updates at 9am UTC
+      time: "04:05"
